@@ -1,0 +1,37 @@
+# File dan folder yang tidak perlu masuk Git
+
+# Dataset mentah (ukuran besar)
+*.csv
+
+# Data besar yang bisa diregenerasi dengan menjalankan notebook
+data/processed_data.pkl
+
+# best_model.pkl disertakan agar Streamlit app dapat berjalan setelah deploy
+
+# Visualisasi PNG (dihasilkan oleh notebook — tidak perlu di-commit)
+reports/*.png
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Editor dan OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# File temporary dari sesi kerja
+audit_output.txt
+results_kv.txt
+results_clean.txt

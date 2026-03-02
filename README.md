@@ -79,7 +79,7 @@ Lima fitur yang paling bermakna berdasarkan koefisien model:
 
 Seberapa berbeda tingkat churn antar kategori fitur:
 
-![Churn Rate per Kategori](reports/churn_by_category.png)
+<img width="1770" height="755" alt="churn_distribution" src="https://github.com/user-attachments/assets/b127ab2d-133c-41f9-8000-4ece7645c9e9" />
 
 Perbedaan pola tenure antara pelanggan yang pergi dan yang bertahan:
 

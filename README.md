@@ -83,11 +83,13 @@ Seberapa berbeda tingkat churn antar kategori fitur:
 
 Perbedaan pola tenure antara pelanggan yang pergi dan yang bertahan:
 
-![Contract dan Tenure Analysis](reports/contract_tenure_analysis.png)
+<img width="2376" height="884" alt="contract_tenure_analysis" src="https://github.com/user-attachments/assets/acc09528-47db-4864-9c12-a31277c10e0f" />
+
 
 Performa ketiga model dalam bentuk ROC Curve dan Precision-Recall Curve:
 
-![ROC dan PR Curves](reports/roc_pr_curves.png)
+<img width="2376" height="884" alt="roc_pr_curves" src="https://github.com/user-attachments/assets/c4d66f92-6f3e-4050-bde9-a85fcf92e404" />
+
 
 ---
 

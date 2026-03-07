@@ -59,7 +59,7 @@ Tiga model diuji dengan strategi 5-fold cross-validation pada training set yang 
 | Random Forest | 0,931 | 0,828 | 0,663 | 0,549 | 0,601 |
 | XGBoost | 0,941 | 0,820 | 0,567 | 0,582 | 0,575 |
 
-Hasil ini mengandung temuan yang cukup menarik. Model yang paling sederhana, Logistic Regression, justru menghasilkan Test AUC tertinggi (0,833). Random Forest dan XGBoost menunjukkan CV AUC yang sangat tinggi (0,931 dan 0,941) namun performa keduanya turun lebih jauh saat diuji pada data yang belum pernah dilihat. Ini adalah tanda klasik dari **overfitting** — model yang terlalu kompleks belajar terlalu dalam dari pola training set yang sudah di-SMOTE, sehingga kurang mampu generalisasi ke distribusi data asli.
+Hasil ini mengandung temuan yang cukup menarik. Model yang paling sederhana, Logistic Regression, justru menghasilkan Test AUC tertinggi (0,833). Random Forest dan XGBoost menunjukkan CV AUC yang sangat tinggi (0,931 dan 0,941) namun performa keduanya turun lebih jauh saat diuji pada data yang belum pernah dilihat. Ini adalah tanda klasik dari **overfitting**, model yang terlalu kompleks belajar terlalu dalam dari pola training set yang sudah di-SMOTE, sehingga kurang mampu generalisasi ke distribusi data asli.
 
 Pelajaran yang bisa diambil: kompleksitas model tidak selalu memberikan hasil yang lebih baik. Pada dataset berukuran sedang seperti ini, model linear yang terkalibrasi dengan baik bisa lebih andal daripada ensemble yang lebih berat.
 
@@ -204,4 +204,4 @@ File CSV mentah tidak disertakan dalam repositori ini. Lihat `data/README.md` un
 
 ---
 
-Proyek ini dibuat sebagai bagian dari portfolio Data Science dan Machine Learning. Lisensi: MIT.
+
